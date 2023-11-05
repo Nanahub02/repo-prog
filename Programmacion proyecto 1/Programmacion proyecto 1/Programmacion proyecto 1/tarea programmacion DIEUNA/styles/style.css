@@ -1,0 +1,99 @@
+nav>ul>li>a{ 
+    color: brown;
+}
+.titulo{
+    font-size: 25px;
+    line-height: 21;
+    font-weight: lighter;
+    margin-left: 400px;
+    color: darkred;
+}
+.body1{
+    background-image: url(../img/background1.jpg);
+    background-size: 2000px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+.somos{
+    font-family: 'Lato', sans-serif;
+    color: chocolate;
+}
+.papa{
+    margin-left: 200px;
+    padding-top: 100px;
+    text-align: right;
+    line-height: 30px;
+    font-size: 30px;
+    color: chocolate;
+}
+.principio{
+   display: flex; 
+   flex-direction: row;
+   align-content: center;
+}
+.page1{
+    /* color vivo para la primera pagina  */
+    background: radial-gradient( circle,#d0ff00,rgb(72, 255, 0))
+}
+#productid{
+    background-color: antiquewhite;
+    padding-top: 70px;
+}
+.lista{
+    display: flex;
+    flex-direction: row;
+}
+.punto{
+    list-style-type: none;
+}
+.grilla3{
+    display: grid;
+    grid-template-columns: repeat(3,1fr); 
+    gap: 20px; 
+    grid-auto-rows: 250px;
+    align-items: center;
+    margin: 25px;
+    padding: 0px;
+    
+    
+}
+.img2{
+    width: 100%;
+    max-height: 100%;
+   overflow: hidden;
+   overflow-clip-margin:0px ;
+   object-fit: cover;
+}
+.producto{
+    font-size: 40px;
+    color: darkmagenta;
+}
+.container{
+    font-size: 35px;
+    line-height: 55px;
+    display: block;
+    width: 900px;
+    padding: 10px;
+}
+.cuerpo{
+    background-color: rgb(255, 251, 196);
+}
+@media (max-width: 1200px){
+    body{
+        background-color: cornflowerblue;
+    }
+}
+@media(max-width:768px){
+    body{
+        background-color: darkkhaki;
+    }
+
+}
+@media(max-width:576px){
+    body{
+        background-color: indianred;
+    }
+
+}
+.btn-primary {
+    --bs-btn-hover-bg: #ffff00 !important;
+}
